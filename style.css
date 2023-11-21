@@ -1,0 +1,140 @@
+:root {
+--dark-blue: #051456;
+--coral: coral;
+
+}
+
+/** {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}*/
+
+body {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--dark-blue);
+    color: var(--coral);
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+    background-color: var(--coral);
+    color: var(--dark-blue);
+   
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+    float: right;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: var(--coral);
+}
+
+.secondHeader {
+    height: 200px;
+    width: 100%;
+    background-image:url(./Assets/Wood.jpeg) ;
+    background-size: cover;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    max-width: 1200px;
+    margin: 2% auto;
+  }
+
+  article {
+    display:flex;
+    margin-bottom: 5%;
+
+    /* flex: 1 1 0; */
+    /* padding-right: 5%; */ 
+    
+  }
+
+
+  article h2 {
+    border-right: 2px solid var(--dark-blue);
+    color: var(--dark-blue);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:right;
+    padding-inline-end: 2rem;
+    width: 10rem;
+    min-width:10rem;
+    
+  }
+
+  article p {
+
+    color: var(--dark-blue);
+    
+  }
+
+  article > div{
+    flex-grow: 1;
+    padding-inline-start:2rem;
+  }
+
+  article div a:hover {
+    opacity: 0.3;
+  }
+
+ 
+article div ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--dark-blue);
+   
+}
+
+.img {
+    border: 5px solid var(--dark-blue);
+    display: block;
+    box-sizing: border-box;
+}
+
+
+.imgWaves  {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 1rem;
+    
+}
+
+.imgOther {
+    width: 100%;  
+    height: 150px;  
+    
+}
+
+.imgDiv {
+    display: flex;
+    gap: 16px;
+}
+
+.imgDiv a {
+    flex-basis: 50%;
+}
+
