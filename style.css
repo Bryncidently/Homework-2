@@ -56,8 +56,9 @@ main {
     padding-inline-start:2rem;
   }
 
-  article div a {
+  article div#work a {
     position: relative;
+    display: block;
   }
 
   article div a img:hover {
