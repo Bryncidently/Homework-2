@@ -68,9 +68,6 @@ main {
   article {
     display:flex;
     margin-bottom: 5%;
-
-    /* flex: 1 1 0; */
-    /* padding-right: 5%; */ 
     
   }
 
@@ -148,9 +145,14 @@ article div ul {
     bottom: 6px;
     font-size: 30px;
     color: var(--coral);
-    background-color: var(--dark-blue);
-    
+    background-color: var(--dark-blue);   
   }
 
+ article div ul li a {
+    color: var(--dark-blue);
+ }
 
+ article div ul li {
+    display: inline;
+ }
 
