@@ -98,6 +98,10 @@ main {
     padding-inline-start:2rem;
   }
 
+  article div a {
+    position: relative;
+  }
+
   article div a:hover {
     opacity: 0.3;
   }
@@ -137,4 +141,16 @@ article div ul {
 .imgDiv a {
     flex-basis: 50%;
 }
+
+.textBox { 
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+    font-size: 30px;
+    color: var(--coral);
+    background-color: var(--dark-blue);
+    
+  }
+
+
 
